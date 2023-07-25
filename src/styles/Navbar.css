@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+
+.Nav{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    height: 50px;
+    width: fit-content;
+    border-radius:30px;
+    /* position: fixed; */
+    margin-top: 10px;
+    border-color: lightblue;
+    border-style: solid;
+    z-index:55;
+}
+.Nav ul{
+    list-style: none;
+
+}
+.Nav ul li{
+    display: inline-block;
+    margin-right: 60px;
+    font-family: 'Arima', cursive;;
+    color: white;
+}
+.Nav ul li:hover{
+    cursor: pointer;
+    /* text-decoration: underline; */
+    color: gray
+
+}
+
+@media(max-width:480px){
+    .Nav ul li{
+        font-size: 70%;
+    }
+}

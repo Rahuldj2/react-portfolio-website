@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Head from './Head'
+import Navbar from './Navbar'
+import About from './About'
+
+import Skills from './Skills'
+import { color, motion, useScroll } from "framer-motion";
 
 function App() {
+  const { scrollYProgress } = useScroll();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <motion.div
+                className="progress-bar"
+                style={{ scaleX: scrollYProgress }}
+        />
+      <Navbar/>
+      <Head/>
+      <About/>
+      <Skills/>
     </div>
   );
 }

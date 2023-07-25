@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+
+
+.about-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    background-color: #22262b;
+    padding: 30px;
+
+}
+
+.about-section h1{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Arima',cursive;
+}
+
+.h1-cont{
+    background-color: #22262b;;
+
+}
+
+
+.about-content{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color:#1a1d21;
+    /* width: fit-content; */
+    /* width: 65vh; */
+    /* margin-left: 35%; */
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Arima',cursive;
+    /* height: vh; */
+    /* height: max-content; */
+    /* background-color: yellow; */
+}
