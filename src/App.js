@@ -3,6 +3,7 @@ import './App.css';
 import Head from './Head'
 import Navbar from './Navbar'
 import About from './About'
+import Profiles from './Profiles'
 
 import Skills from './Skills'
 import { color, motion, useScroll } from "framer-motion";
@@ -19,6 +20,7 @@ function App() {
       <Head/>
       <About/>
       <Skills/>
+      <Profiles/>
     </div>
   );
 }

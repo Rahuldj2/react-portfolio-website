@@ -10,7 +10,7 @@
     margin:calc(var(--s)+var(--g));
     justify-items: center;
     background-color: #22262b;
-    min-height: 100vh;
+    min-height: 60vh;
     /* margin-top: 20%; */
 }
 .body-cont{

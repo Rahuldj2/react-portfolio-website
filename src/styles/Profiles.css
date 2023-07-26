@@ -1,0 +1,46 @@
+.coding-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap:20px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.coding-container img{
+    width: 100px;
+    border-radius: 50%;
+}
+.coding-container a{
+    text-decoration: none;
+}
+
+.coding-content div{
+    background-color: #1a1d21;;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.coding-content h2{
+    font-family: 'Arima', cursive;
+    color: white;
+    text-align: center;
+}
+
+.coding-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #22262b;
+    padding: 20px;
+    /* background-color: ; */
+}
+
+.coding-container h1{
+    font-size: 50px;
+    font-family: 'Arima', cursive;
+    color: white;
+    text-align: center;
+}
