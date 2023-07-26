@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import './styles/About.css'
 
-const About=()=>
+
+
+const About=({aboutRef})=>
 {
     return <>
-        <section className="about-section">
+        <section ref={aboutRef} id='about' className="about-section">
             <div className='h1-cont'style={{textAlign:'center'}}>
                 <h1>
                     ABOUT

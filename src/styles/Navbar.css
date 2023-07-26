@@ -32,6 +32,9 @@
     color: gray
 
 }
+.homelink:hover{
+    color: gray;
+}
 
 @media(max-width:480px){
     .Nav ul li{

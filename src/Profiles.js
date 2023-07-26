@@ -19,7 +19,7 @@ const Profiles=()=>{
                         <div>
                             <img src={leet}></img>
                         <h2>
-                            Leetcode Profile
+                            Leetcode
                         </h2>
                         </div>
                         
@@ -29,9 +29,9 @@ const Profiles=()=>{
                 <div>
                     <a href="https://codeforces.com/profile/rahuldj_br2" target="_blank">
                         <div>
-                        <img src={cf}></img>
+                        <img style={{width:'100px'}} src={cf}></img>
                         <h2>    
-                        Codeforces Profile
+                        Codeforces
                         </h2>
                         </div>
                     
@@ -44,7 +44,7 @@ const Profiles=()=>{
                         <div>
                         <img src={gitt}></img>
                             <h2>    
-                            GitHub Profile
+                            GitHub 
                             </h2>
                         </div>
 

@@ -8,10 +8,10 @@ import pyLogo from './assets/pyLogo.avif'
 import reactLogo from './assets/reactLogo.png'
 import './styles/Skills.css'
 
-const Skills=()=>
+const Skills=({skillRef})=>
 {
     return <>
-    <div className="body-cont"style={{backgroundColor:'#22262b'}}>
+    <div ref={skillRef}className="body-cont"style={{backgroundColor:'#22262b'}}>
         <div >
             <h1 style={{color:'white',textAlign:'center',fontSize:'50px'}}>
                 SKILLS
