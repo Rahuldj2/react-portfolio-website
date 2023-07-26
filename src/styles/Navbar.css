@@ -4,9 +4,9 @@
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    justify-content: center;
-    flex-wrap: nowrap;
-    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
     height: 50px;
     width: fit-content;
     border-radius:30px;
@@ -20,6 +20,14 @@
     list-style: none;
 
 }
+
+.Nav ul div{
+    display: inline-block;
+}
+
+/* .Nav{
+    display: none;
+} */
 .Nav ul li{
     display: inline-block;
     margin-right: 60px;
@@ -36,8 +44,75 @@
     color: gray;
 }
 
+.mobile-menu{
+    display: none;
+}
+
+.nav-parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:#1a1d21
+}
 @media(max-width:480px){
-    .Nav ul li{
+    /* .Nav ul li{
         font-size: 70%;
+    } */
+
+    .Nav{
+        display: none;
+    }
+    .nav-parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .mobile-menu{
+        display: block;
+        width: fit-content;
+        background-color: #1a1d21;
+        border: none;
+
+    }
+    .mobile-menu img{
+        width: 60px;
+    }
+    .Navactive{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* flex-direction: column; */
+        background-color: rgb(55, 49, 49);
+        height: fit-content;
+        width: fit-content;
+        /* justify-content: center; */
+        /* flex-wrap: nowrap; */
+        /* justify-content: space-between; */
+        /* height: 200px; */
+        /* width: fit-content; */
+        border-radius:20px;
+        padding: 20px;
+    
+        /* position: fixed; */
+        /* margin-top: 10px; */
+        border-color: none;
+        border-style: none;
+        z-index:55;
+        place-content: center;
+    }
+
+    .Navactive ul{
+        list-style: none;
+        padding: 0;
+    }
+    .Navactive ul li{
+        font-family: 'Arima', cursive;;
+        color: white;
+    }
+
+    .Navactive ul li:hover{
+        cursor: pointer;
+        /* text-decoration: underline; */
+        color: gray
+    
     }
 }

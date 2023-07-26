@@ -18,7 +18,8 @@ const About=({aboutRef})=>
                     <p>
                         I am an aspiring Computer Science Student, zealous about new and upcoming technologies.
                         I have a strong understanding of various kinds of Data Structures And Algorithms and I am Passionate about
-                        Competitive Programming as well.
+                        Competitive Programming as well. I am currently learning about Blockchain Technology and focusing on 
+                        building and deploying Smart Contracts using Solidity.
                     </p>
                 </article>
             </div>
