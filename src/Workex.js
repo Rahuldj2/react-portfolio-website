@@ -31,7 +31,7 @@ const Timeline = ({ setObserver, callback }) => {
             </h3>
 
             <p>
-            Working on Developing various ReactJS applications
+            Working on Developing various <br></br>ReactJS applications
             </p>
         </div>
     </section>);
@@ -69,8 +69,9 @@ const Timeline = ({ setObserver, callback }) => {
             </h3>
 
             <p>
-                Worked with Learning and Academic Support Center of <br></br>Shiv Nadar University as a <br>
-                </br>part time Tutor for Data Structures course
+                Worked with Learning and Academic Support <br></br>Center 
+                of Shiv Nadar University as a part time <br>
+                </br>Tutor for Data Structures course
             </p>
         </div>
     </section>);
