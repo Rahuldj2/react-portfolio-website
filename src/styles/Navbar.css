@@ -107,6 +107,7 @@
     .Navactive ul li{
         font-family: 'Arima', cursive;;
         color: white;
+        font-size: 32px;
     }
 
     .Navactive ul li:hover{
