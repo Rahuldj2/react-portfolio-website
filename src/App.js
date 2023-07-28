@@ -4,6 +4,7 @@ import Head from './Head'
 import Navbar from './Navbar'
 import About from './About'
 import Profiles from './Profiles'
+import Workex from './Workex'
 
 import Skills from './Skills'
 import { color, motion, useScroll } from "framer-motion";
@@ -25,6 +26,7 @@ function App() {
       <About  aboutRef={aboutRef}/>
       <Skills skillRef={skillRef}/>
       <Profiles/>
+      <Workex/>
     </div>
   );
 }
